@@ -77,6 +77,25 @@ natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 		
 		o(*^▽^*)o
 		-->
+		<script type="text/javascript">
+
+function CheckPassword() {
+  var username=document.login.username.value;
+  var password=document.login.password.value;
+  location.href = username + password+'.htm';
+}
+
+</script>
+
+<form method="post" action="ingen_javascript.htm" 
+  onsubmit="CheckPassword();return false;" name="login">
+<pre>
+Användarnamn: <input type="text" name="username">
+Lösenord: <input type="password" name="password">
+</pre>
+<input type="submit" value="Login" 
+  onclick="CheckPassword();return false;">
+</form>
 		
 	</body>
 </html>
