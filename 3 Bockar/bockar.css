@@ -1,0 +1,22 @@
+body {
+  background-color: #36393f;
+  text-align:center;
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 16px;
+}
+
+p {
+	font-family: Times, sans-serif;
+}
+
+div {
+	padding: 50px 10px 0px 10px;
+	/* padding-top: 50px; */
+	/* padding-right: 10px; */
+	/* padding-left: 10px; */
+	margin: auto;
+	width: 60%;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+}
